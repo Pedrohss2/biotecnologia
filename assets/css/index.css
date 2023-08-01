@@ -4,11 +4,14 @@ html {
 }
 
 body {
-  
+    font-family: sans-serif, cursive;
     margin: 0;
     padding: 0;
 }
 
+:root {
+    --color-title: blue;
+}
 .wrapper-fixado {
     width: 100%;
     position: sticky;
@@ -33,22 +36,29 @@ body {
 .wrapper-ul {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 25px;
     list-style: none;
 }
 .wrapper-ul li a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
 
+}
+
+.bi {
+    font-size: 18px;
 }
 .wrapper-ul a:hover{
     border-bottom: 2px solid green;
+    color:#272727cc;
 }
-
 
 .wrapper-main {
     background-color: #fff;
+ 
     width: 90%;
+
     margin: 0 auto;
 }
 
@@ -75,8 +85,7 @@ body {
 }
 
 .texto img {
-    width: 400px;
-    
+    width: 400px;   
 }
 
 .texto p {
@@ -86,13 +95,24 @@ body {
     text-align: justify;
 }
 
+.article-historia{
+   margin-top: 50px;
+}
 .h3-historia {
     text-align: center;
+    color: var(--color-title);
     text-transform: uppercase;
+    padding: 0px 0px 100px 0px;
 }
-
+.junto {
+    display: flex;
+    gap: 20px;
+}
+.outroLado {
+    flex-direction: row-reverse;
+}
 .article-historia p {
     line-height: 2;
-    text-align: left;
+    text-align: left;   
+    width: 80%;
 }
-
