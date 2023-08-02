@@ -69,7 +69,6 @@ body {
     font-size: 25px;
 }
 .texto {
-    padding:  25px;
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -85,34 +84,157 @@ body {
 }
 
 .texto img {
-    width: 400px;   
+    width: 400px;
 }
-
 .texto p {
-    padding: 0;
+    padding: 10px;
     margin: 0;
     line-height: 2;
     text-align: justify;
 }
 
 .article-historia{
-   margin-top: 50px;
+   margin-top: 100px;
 }
+
 .h3-historia {
     text-align: center;
     color: var(--color-title);
     text-transform: uppercase;
     padding: 0px 0px 100px 0px;
 }
-.junto {
-    display: flex;
-    gap: 20px;
-}
-.outroLado {
-    flex-direction: row-reverse;
-}
-.article-historia p {
-    line-height: 2;
-    text-align: left;   
+.p {
     width: 80%;
+}
+
+.paragrafos {
+    line-height: 2;
+    padding: 15px 0px 15px 0px;
+}
+
+.H3-tipos {
+    margin: 75px  0px 50px  0px;
+    text-align: center;
+    color: var(--color-title);
+}
+.paragrafos-vermelho {
+    color: red;
+
+}
+.paragrafos-ve:hover {
+    background-color: rgba(105, 63, 63, 0.541);
+    outline: 1px solid red;
+} 
+.paragrafos-branco {
+    color: rgb(116, 115, 115);
+    text-shadow: 1px 1px black;
+}
+.paragrafos-br:hover {
+    background-color: #cccccc60;
+    outline: 1px solid rgb(54, 54, 54);
+   
+}
+
+.paragrafo-cin:hover {
+    background-color: #6664649a;
+    outline: 1px solid rgb(32, 32, 32);
+}
+
+.paragrafo-az:hover {
+    background-color: rgba(39, 39, 207, 0.103);
+    outline: 1px solid blue;
+}
+
+.paragrafo-azul {
+    color: blue;
+}
+.paragrafo-marrom {
+    color: #752e2e; 
+}
+.paragrafo-marr:hover {
+    background-color: #684e4e73;
+    outline: 1px solid #9c3131;
+}
+.paragrafo-amarelo {
+    color: #ffcc00;
+}
+.paragrafo-amare:hover {
+    background-color: #ffd83d23;
+    outline: 1px solid yellow;
+}
+
+.paragrafo-dourado {
+    color: gold;
+}
+.paragrafo-doura:hover {
+    background-color: #ffd83d23;
+    outline: 1px solid gold;
+} 
+.paragrafo-verde {
+    color: rgb(0, 90, 0);
+}
+.paragrafo-verd:hover {
+    background-color: rgba(0, 128, 0, 0.089);
+    outline: 1px solid rgb(0, 255, 0);
+}
+
+.paragrafo-rox:hover {
+    background-color: rgba(128, 0, 128, 0.137);
+    outline: 1px solid rgb(48, 0, 48);
+} 
+.paragrafo-roxo {
+    color: purple;
+}
+.paragrafo-laranja {
+    color: #FF6000;
+}
+.paragrafo-laran:hover {
+    outline: 1px solid #FF6000;
+    background-color: rgba(255, 166, 0, 0.349);
+}
+.paragrafo-preta {
+    font-weight: bold;
+}
+.paragrafo-pret:hover {
+    background-color: #0000007a;
+    outline: 1px solid black;
+}
+.centraliza {
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: start;
+    gap: 10px;
+    padding: 50px;
+}
+.form {   
+    background-color: #ccc;
+}
+input{  
+   padding: 15px;
+   border: none;
+   background-color: #f3f2f2;
+    border-radius: 5px;
+}
+
+
+button {
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(192, 192, 192);
+}
+button:hover {
+    box-shadow: 0px 0px 4px green,
+    0px 0px 5px blue;
+}
+
+.resposta {
+    display: block;
+    background-color: #f0f0f0;
+    overflow: auto;
+
+    max-height: 200px;
+
+ 
 }
