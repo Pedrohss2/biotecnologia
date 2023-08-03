@@ -12,7 +12,7 @@ function escopo() {
             pergunta: question.value
         });       
         
-        resultado.innerHTML += `${pergunta.value}`
+        resultado.innerHTML += `${pergunta.value} `
     }
 
     form.addEventListener('submit', recebeEvento)    
